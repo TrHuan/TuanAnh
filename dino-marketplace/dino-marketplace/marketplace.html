@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="VI">
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Dino Marketplace</title>
+
+	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+	<link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+	<link href="assets/css/slick.min.css" rel="stylesheet" />
+	<!-- <link href="assets/css/all.fontawesome.min.css" rel="stylesheet" /> -->
+	<link href="assets/css/main.css" rel="stylesheet" />
+
+	<link href="assets/css/customs.css" rel="stylesheet" />
+	<link href="assets/css/reponsives.css" rel="stylesheet" />
+</head>
+<body class="site-body marketplace-body">
+	<div class="body-main">
+		<div class="megamenu megamenu-mobile d-lg-none">
+			<div class="mobile-content">
+				<div class="content-box">
+					<div class="content-header">
+						<div class="logo">
+							<a href="index.html" title="Logo">
+								<img src="assets/images/logo.png" alt="Logo">
+							</a>
+						</div> <!--logo-->
+						<button class="menu-close"></button>
+					</div>
+				
+					<nav class="nav">
+						<ul>
+							<li class="item">
+								<a href="index.html" title="">
+									<img src="assets/images/icon-01.png" alt="Icon">
+									<span>Home</span>
+								</a>
+							</li>
+							<li class="item">
+								<a href="dino-egg.html" title="">
+									<img src="assets/images/icon-02.png" alt="Icon">
+									<span>Dino egg</span>
+								</a>
+							</li>
+							<li class="item active">
+								<a href="marketplace.html" title="">
+									<img src="assets/images/icon-03.png" alt="Icon">
+									<span>Marketplace</span>
+								</a>
+							</li>										                         
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div> <!-- megamenu-mobile -->
+
+		<header>
+			<div class="header-bar">
+				<div class="header-stick">
+					<div class="container-fluid">
+						<div class="row">
+							<div class="col-xl-2 col-lg-2 col-md-3 col-sm-3 col-5">
+								<div class="logo">
+									<a href="index.html" title="Logo">
+										<img src="assets/images/logo.png" alt="Logo">
+									</a>
+								</div> <!--logo-->
+							</div>
+
+							<div class="col-xl-10 col-lg-10 col-md-9 col-sm-9 col-7">
+								<div class="megamenu megamenu-desktop d-none d-lg-block">
+									<div class="megamenu-content">
+										<nav class="nav">
+											<ul>
+												<li class="item">
+													<a href="index.html" title="">
+														<img src="assets/images/icon-01.png" alt="Icon">
+														<span>Home</span>
+													</a>
+												</li>
+												<li class="item">
+													<a href="dino-egg.html" title="">
+														<img src="assets/images/icon-02.png" alt="Icon">
+														<span>Dino egg</span>
+													</a>
+												</li>
+												<li class="item active">
+													<a href="marketplace.html" title="">
+														<img src="assets/images/icon-03.png" alt="Icon">
+														<span>Marketplace</span>
+													</a>
+												</li>										                         
+											</ul>
+										</nav>
+
+										<div>
+											<button class="btn">
+												<span>Connect wallet</span>
+											</button>
+										</div>
+									</div>
+								</div> <!--megamenu-->
+								<div class="megamenu megamenu-mobile d-lg-none">
+									<div class="megamenu-content">
+										<button class="menu-open">
+											<span></span>        
+										</button>
+
+										<div>
+											<button class="btn">
+												<span>Connect wallet</span>
+											</button>
+										</div>
+									</div>
+								</div> <!-- megamenu-mobile -->
+							</div>
+						</div>
+					</div>
+				</div>
+			</div> <!--header bar-->
+		</header> <!--header-->
+
+		<main class="main-site page-site page-products">
+			<div class="main-container">
+
+				<section class="lth-products">
+					<div class="container">
+						<div class="row">
+							<div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12">
+								<aside class="sidebars-box">
+									<div class="title-box">
+										<h2 class="title">
+											<span>Filter</span>
+										</h2>
+
+										<div class="ordering-box">
+											<button class="btn btn-clear">
+												<span>Clear</span>
+											</button>
+										</div>
+									</div>
+
+									<div class="sidebar-box">
+										<form class="search-form">
+											<div class="search-content">
+												<input type="text" name="s" class="form-control" placeholder="Search by owner, nft, item,...">
+												<button class="btn btn-submit">
+													<img src="assets/images/icon-09.png" alt="Icon">
+												</button>
+											</div>
+										</form>
+									</div>
+
+									<div class="sidebar-box">
+										<h3 class="title">
+											<span>Listing</span>
+											<img src="assets/images/icon-10.png" alt="Icon">
+										</h3>
+										<div class="content">
+											<ul>
+												<li>
+													<input type="checkbox" name="Checkout" value="My listing">
+													<span>My listing</span>
+												</li>
+												<li>
+													<input type="checkbox" name="Checkout" value="Fixed Price">
+													<span>Fixed Price</span>
+												</li>
+												<li>
+													<input type="checkbox" name="Checkout" value="Auction">
+													<span>Auction</span>
+												</li>
+											</ul>
+										</div>
+									</div>
+
+									<div class="sidebar-box sidebar-radio-box">
+										<h3 class="title">
+											<span>Payment</span>
+											<img src="assets/images/icon-10.png" alt="Icon">
+										</h3>
+										<div class="content">
+											<ul>
+												<li>
+													<input type="radio" name="Payment" value="My listing">
+													<span><img src="assets/images/icon-12.png" alt="Icon"> My listing</span>
+												</li>
+												<li>
+													<input type="radio" name="Payment" value="Fixed Price">
+													<span><img src="assets/images/icon-13.png" alt="Icon"> Fixed Price</span>
+												</li>
+											</ul>
+										</div>
+									</div>
+
+									<div class="sidebar-box">
+										<h3 class="title">
+											<span>Nft</span>
+											<img src="assets/images/icon-10.png" alt="Icon">
+										</h3>
+										<div class="content">
+											<ul>
+												<li>
+													<input type="checkbox" name="Checkout" value="Dino NFTs">
+													<span>Dino NFTs</span>
+												</li>
+												<li>
+													<input type="checkbox" name="Checkout" value="Dino Eggs">
+													<span>Dino Eggs</span>
+												</li>
+												<li>
+													<input type="checkbox" name="Checkout" value="Bracelets">
+													<span>Bracelets</span>
+												</li>
+												<li>
+													<input type="checkbox" name="Checkout" value="Shoes">
+													<span>Shoes</span>
+												</li>
+												<li>
+													<input type="checkbox" name="Checkout" value="Watter Bottle">
+													<span>Watter Bottle</span>
+												</li>
+												<li>
+													<input type="checkbox" name="Checkout" value="Watch">
+													<span>Watch</span>
+												</li>
+											</ul>
+										</div>
+									</div>
+
+									<div class="sidebar-box">
+										<h3 class="title">
+											<span>Nft rarity</span>
+											<img src="assets/images/icon-10.png" alt="Icon">
+										</h3>
+										<div class="content">
+											<ul>
+												<li>
+													<input type="checkbox" name="Checkout" value="Common">
+													<span>Common</span>
+												</li>
+												<li>
+													<input type="checkbox" name="Checkout" value="Uncommon">
+													<span>Uncommon</span>
+												</li>
+												<li>
+													<input type="checkbox" name="Checkout" value="Rare">
+													<span>Rare</span>
+												</li>
+												<li>
+													<input type="checkbox" name="Checkout" value="Epic">
+													<span>Epic</span>
+												</li>
+												<li>
+													<input type="checkbox" name="Checkout" value="Legendary">
+													<span>Legendary</span>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</aside>
+							</div>
+
+							<div class="col-xl-9 col-lg-9 col-md-12 col-sm-12 col-12">
+								<div class="products-list">
+									<div class="title-box">
+										<h1 class="title">
+											<span>Marketplace</span>
+										</h1>
+
+										<div class="ordering-box">
+											<form class="ordering-form">
+												<select>
+													<option>Sort by name</option>
+													<option>Sort by price</option>
+												</select>
+											</form>
+										</div>
+									</div>
+
+									<div class="content group-box">
+
+										<div class="item">
+											<div class="product-box">
+												<div class="image-box">
+													<p class="category-name">
+														<a class="name" href="marketplace.html">Dino nft</a>
+													</p>
+													<h3 class="product-name">
+														<a class="name" href="marketplace-detail.html">T-rex</a>
+													</h3>
+													<a class="image" href="marketplace-detail.html">
+														<img src="assets/images/pr-01.png" alt="Product">
+													</a>
+
+													<div class="image-text">
+														<span>Lv.1</span>
+														<span class="legendary">Legendary</span>
+													</div>
+												</div>
+
+												<div class="content-box">
+													<p class="owner-box">Owner: 0xee6c...3578e5</p>
+													<p class="price-box">
+														<img src="assets/images/icon-12.png" alt="Icon">
+														<span>890</span>
+													</p>
+													<p>
+														<button class="btn btn-buy">
+															<span>Buy</span>
+														</button>
+													</p>
+												</div>
+											</div>
+										</div>
+
+										<div class="item">
+											<div class="product-box">
+												<div class="image-box">
+													<p class="category-name">
+														<a class="name" href="marketplace.html">Dino nft</a>
+													</p>
+													<h3 class="product-name">
+														<a class="name" href="marketplace-detail.html">T-rex</a>
+													</h3>
+													<a class="image" href="marketplace-detail.html">
+														<img src="assets/images/pr-02.png" alt="Product">
+													</a>
+
+													<div class="image-text">
+														<span>Lv.1</span>
+														<span class="legendary">Legendary</span>
+													</div>
+												</div>
+
+												<div class="content-box">
+													<p class="owner-box">Owner: 0xee6c...3578e5</p>
+													<p class="price-box">
+														<img src="assets/images/icon-12.png" alt="Icon">
+														<span>890</span>
+													</p>
+													<p>
+														<button class="btn btn-buy">
+															<span>Buy</span>
+														</button>
+													</p>
+												</div>
+											</div>
+										</div>
+
+										<div class="item">
+											<div class="product-box">
+												<div class="image-box">
+													<p class="category-name">
+														<a class="name" href="marketplace.html">Dino nft</a>
+													</p>
+													<h3 class="product-name">
+														<a class="name" href="marketplace-detail.html">T-rex</a>
+													</h3>
+													<a class="image" href="marketplace-detail.html">
+														<img src="assets/images/pr-03.png" alt="Product">
+													</a>
+
+													<div class="image-text">
+														<span>Lv.1</span>
+														<span class="legendary">Legendary</span>
+													</div>
+												</div>
+
+												<div class="content-box">
+													<p class="owner-box">Owner: 0xee6c...3578e5</p>
+													<p class="price-box">
+														<img src="assets/images/icon-12.png" alt="Icon">
+														<span>890</span>
+													</p>
+													<p>
+														<button class="btn btn-buy">
+															<span>Buy</span>
+														</button>
+													</p>
+												</div>
+											</div>
+										</div>
+
+										<div class="item">
+											<div class="product-box">
+												<div class="image-box">
+													<p class="category-name">
+														<a class="name" href="marketplace.html">Dino nft</a>
+													</p>
+													<h3 class="product-name">
+														<a class="name" href="marketplace-detail.html">T-rex</a>
+													</h3>
+													<a class="image" href="marketplace-detail.html">
+														<img src="assets/images/pr-04.png" alt="Product">
+													</a>
+
+													<div class="image-text">
+														<span>Lv.1</span>
+														<span class="legendary">Legendary</span>
+													</div>
+												</div>
+
+												<div class="content-box">
+													<p class="owner-box">Owner: 0xee6c...3578e5</p>
+													<p class="price-box">
+														<img src="assets/images/icon-12.png" alt="Icon">
+														<span>890</span>
+													</p>
+													<p>
+														<button class="btn btn-buy">
+															<span>Buy</span>
+														</button>
+													</p>
+												</div>
+											</div>
+										</div>
+
+										<div class="item">
+											<div class="product-box">
+												<div class="image-box">
+													<p class="category-name">
+														<a class="name" href="marketplace.html">Dino nft</a>
+													</p>
+													<h3 class="product-name">
+														<a class="name" href="marketplace-detail.html">T-rex</a>
+													</h3>
+													<a class="image" href="marketplace-detail.html">
+														<img src="assets/images/pr-01.png" alt="Product">
+													</a>
+
+													<div class="image-text">
+														<span>Lv.1</span>
+														<span class="legendary">Legendary</span>
+													</div>
+												</div>
+
+												<div class="content-box">
+													<p class="owner-box">Owner: 0xee6c...3578e5</p>
+													<p class="price-box">
+														<img src="assets/images/icon-12.png" alt="Icon">
+														<span>890</span>
+													</p>
+													<p>
+														<button class="btn btn-buy">
+															<span>Buy</span>
+														</button>
+													</p>
+												</div>
+											</div>
+										</div>
+
+										<div class="item">
+											<div class="product-box">
+												<div class="image-box">
+													<p class="category-name">
+														<a class="name" href="marketplace.html">Dino nft</a>
+													</p>
+													<h3 class="product-name">
+														<a class="name" href="marketplace-detail.html">T-rex</a>
+													</h3>
+													<a class="image" href="marketplace-detail.html">
+														<img src="assets/images/pr-04.png" alt="Product">
+													</a>
+
+													<div class="image-text">
+														<span>Lv.1</span>
+														<span class="legendary">Legendary</span>
+													</div>
+												</div>
+
+												<div class="content-box">
+													<p class="owner-box">Owner: 0xee6c...3578e5</p>
+													<p class="price-box">
+														<img src="assets/images/icon-12.png" alt="Icon">
+														<span>890</span>
+													</p>
+													<p>
+														<button class="btn btn-buy">
+															<span>Buy</span>
+														</button>
+													</p>
+												</div>
+											</div>
+										</div>
+
+									</div>
+
+									<div class="pagination-box">
+										<ul>
+											<li>
+												<a href="#" class="prev">
+													<img src="assets/images/icon-14.png" alt="Icon">
+												</a>
+											</li>
+											<li>
+												<a href="#" class="number active">1</a>
+											</li>
+											<li>
+												<a href="#" class="number">2</a>
+											</li>
+											<li>
+												<a href="#" class="number">3</a>
+											</li>
+											<li>
+												<a href="#" class="number">...</a>
+											</li>
+											<li>
+												<a href="#" class="number">9</a>
+											</li>
+											<li>
+												<a href="#" class="number">10</a>
+											</li>
+											<li>
+												<a href="#" class="number">11</a>
+											</li>
+											<li>
+												<a href="#" class="next">
+													<img src="assets/images/icon-15.png" alt="Icon">
+												</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+			</div>
+		</main> <!--main-->
+
+		<footer>
+			<div class="footer-main">
+				<div class="container">
+					<div class="row">
+						<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+							<div class="footer-box">
+								<div class="socials-box">
+									<label>Social media</label>
+									<ul>
+										<li>
+											<a href="#">
+												<img src="assets/images/icon-05.png" alt="Icon">
+											</a>
+										</li>
+										<li>
+											<a href="#">
+												<img src="assets/images/icon-06.png" alt="Icon">
+											</a>
+										</li>
+										<li>
+											<a href="#">
+												<img src="assets/images/icon-07.png" alt="Icon">
+											</a>
+										</li>
+										<li>
+											<a href="#">
+												<img src="assets/images/icon-08.png" alt="Icon">
+											</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+							<div class="footer-box copyright-box">
+								<p>© Copyright 2022 Dinostep. All Rights Reserved</p>
+							</div>
+						</div>
+					</div>
+				</div>		
+			</div>
+		</footer> <!--footer-->
+	</div>
+
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/slick.min.js"></script>
+
+	<script src="assets/js/main.js"></script>
+
+	<div class="back-to-top">
+		<span>Top</span>
+	</div>
+</body>
+</html>
