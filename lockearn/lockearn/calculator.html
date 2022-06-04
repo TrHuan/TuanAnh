@@ -296,9 +296,11 @@
 
 								<div class="calculator-box">
 									<label>30 days</label>
-									<p class="progress-line">
-										<span class="line" data-progress="12.5%" style="width: 12.5%;"></span>
-									</p>
+									<form oninput="output.value = Math.round(range.valueAsNumber / 1000)">
+										<div class="range">
+											<input name="range" type="range" min="0" max="100000">
+										</div>
+									</form>
 								</div>
 								
 								<div class="account-box">

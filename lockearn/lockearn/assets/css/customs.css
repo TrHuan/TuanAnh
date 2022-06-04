@@ -1033,6 +1033,10 @@ section {
 .calculator-box li .form-control {
 	font-weight: 700;
 	font-size: 16px;
+	color: #fff;
+}
+.calculator-box li span,
+.calculator-box li .form-control::placeholder {
 	color: #7F8596;
 }
 .calculator-box li span {
@@ -1045,29 +1049,134 @@ section {
 .calculator-box > label {
 	margin-bottom: 18px;
 }
-.calculator-box .progress-line {
-	background: #31343F;
-	border-radius: 8px;
-	height: 8px;
+.range {
+position: relative;
 }
-.calculator-box .line {
-	background-color: #E45F35;
-	position: relative;
-	display: block;
-	height: 100%;
-	border-radius: 8px;
-}
-.calculator-box .line:after {
-	content: '';
-	width: 20px;
+.range input[type=range] {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+		appearance: none;
+	padding: 0;
+	width: 100%;
 	height: 20px;
-	background-color: #E45F35;
-	border-radius: 50%;
+	cursor: pointer;
+	display: block;
+	background-color: transparent;
+	border: none;
+}
+.range input[type=range]:focus {
+	outline: none;
+}
+.range input[type=range][disabled] {
+	/* opacity: 0.3; */
+	cursor: default;
+}
+.range .rangeslider {
+	position: relative;
+	height: 20px;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+		user-select: none;
+}
+.range .rangeslider:before {
+	box-sizing: border-box;
+	width: 100%;
+	height: 8px;
+	background: #31343F;
+	border-radius: 100px;
+	content: "";
 	position: absolute;
-	right: 0;
 	top: 50%;
 	transform: translateY(-50%);
 }
+.range input::-webkit-slider-runnable-track {
+	box-sizing: border-box;
+	width: 100%;
+	height: 8px;
+	background: #31343F;
+	border-radius: 100px;
+	margin: 11px 0;
+}
+.range input::-moz-range-track {
+	box-sizing: border-box;
+	width: 100%;
+	height: 8px;
+	background: #31343F;
+	border-radius: 8px;
+	margin: 11px 0;
+}
+.range input::-ms-track {
+	box-sizing: border-box;
+	width: 100%;
+	height: 8px;
+	background: #31343F;
+	border-radius: 8px;
+	color: transparent;
+	padding: 11px 0;
+	background: transparent;
+	border-color: transparent;
+}
+.range input::-ms-fill-lower,
+.range input::-ms-fill-upper {
+	box-sizing: border-box;
+	width: 100%;
+	height: 8px;
+	background: #31343F;
+	border-radius: 8px;
+}
+.range input::-ms-fill-lower {
+	background: #E45F35;
+}
+.range .rangeslider-fill-lower {
+	background-color: #E45F35;
+	border-radius: 8px;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	height: 8px;
+	will-change: width;
+}
+.range input::-webkit-slider-thumb {
+	box-sizing: border-box;
+	height: 20px;
+	width: 20px;
+	border-radius: 50%;
+	background: #E45F35;
+	cursor: pointer;
+	-webkit-appearance: none;
+		appearance: none;
+	transform: translateY(-50%);
+	margin-top: 2px;
+}
+.range input::-moz-range-thumb,
+.range input::-ms-thumb {
+	box-sizing: border-box;
+	height: 20px;
+	width: 20px;
+	border-radius: 50%;
+	background: #E45F35;
+	cursor: pointer;
+}
+.range .rangeslider-thumb {
+	box-sizing: border-box;
+	height: 20px;
+	width: 20px;
+	border-radius: 50%;
+	background: #E45F35;
+	cursor: pointer;
+	position: absolute;
+	touch-action: pan-x;
+	top: 50%;
+	transform: translateY(-50%);
+	will-change: left;
+}  
+form {
+	max-width: 100%;
+	min-width: 320px;
+}
+/* /////// */
 
 .diamond-hands-reward-box {
 	width: 100%;
