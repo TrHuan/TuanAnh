@@ -1,72 +1,22 @@
 
 @media(min-width: 992px) {
-    .page-body .header {
-        height: 100% !important;
-    }
+
 }
 
 @media(min-width: 1200px) {
-    .page-body .container {
-        max-width: 1170px;
-    }
+    
 }
 
 @media(min-width: 1440px) {
-    .page-body .container {
-        max-width: 1440px;
-    }
+    
 }
 
-@media(min-width: 1200px) and (max-width: 1348px) {
-    .container {
-        max-width: 1170px;
-    }
-}
-
-@media(max-width: 1439px) {    
-    .dashboard-box .item {
-        width: 50%;
-    }
+@media(max-width: 1439px) { 
+    
 }  
-
-@media(max-width: 1348px) {
-    .banner-the-highest .banner-content h2,
-    .title-box .title {
-        font-size: 40px;
-    }
-
-    .footer-main .socials-box ul a {
-        font-size: 16px;
-        min-width: 160px;
-    }
-}  
-
-@media(min-width: 992px) and (max-width: 1199px) { 
-    .page-body .megamenu .nav a {
-        white-space: nowrap;
-        overflow: hidden;
-    }
-    .page-body .megamenu a .img {
-        margin-right: 0;
-    }
-    .page-body .megamenu a .img + span {
-        padding-left: 5px;
-    }
-}
 
 @media(max-width: 1199px) { 
-    .banner-the-highest .banner-content h2,
-    .title-box .title {
-        font-size: 34px;
-    }
-
-    .banner-buy-tax .banner-box li:not(:first-child) {
-        margin-left: 20px;
-    }
-
-    .banner-lockearn-nft .banner-content {
-        padding-left: 15px;
-    }
+    
 }
 
 @media(max-width: 991px) {
@@ -85,18 +35,21 @@
     }
     .megamenu-mobile .menu-open span {
         display: block;
-        width: 24px;
-        height: 2px;
-        background-color: #fff;
+        width: 14px;
+        height: 1.5px;
+        background-color: #343027;
         margin: 6px 0;
     }
     .megamenu-mobile .menu-open:before,
     .megamenu-mobile .menu-open:after {
         content: '';
         display: block;
-        width: 24px;
-        height: 2px;
-        background-color: #fff;
+        width: 18px;
+        height: 1.5px;
+        background-color: #343027;
+    }
+    .megamenu-mobile .menu-open:after {
+        width: 10px;
     }
     .megamenu-mobile .mobile-content {
         position: fixed;
@@ -105,7 +58,7 @@
         z-index: 99999;
         width: 100%;
         height: 100%;
-        background-color: rgba(0, 0, 0, 0.4);
+        /* background-color: rgba(0, 0, 0, 0.4); */
         transition: all 400ms;
         opacity: 0;
         visibility: hidden;
@@ -117,7 +70,7 @@
         max-width: 100%;
         width: 100%;
         height: 100%;
-        background-color: #22252d;
+        background-color: #fff;
         padding: 0 15px;
         transition: all 400ms;
         overflow-y: auto;
@@ -145,7 +98,7 @@
         display: block;
         width: 24px;
         height: 2px;
-        background-color: #fff;
+        background-color: #343027;
         transform: rotate(45deg);
         position: relative;
         top: -1px;
@@ -191,406 +144,78 @@
         background-position: right bottom;
     }
 
-    .banner-the-greatest .banner-image,
-    .banner-the-greatest .banner-content {
-        max-width: 100%;
-        padding: 15px;
-    }
-
-    .banner-the-greatest .banner-content h2,
-    .banner-the-highest .banner-content h2,
-    .title-box .title {
-        font-size: 28px;
-    }
-
-    .banner-buy-tax .banner-box li {
-        font-size: 14px;
-    }
-
     /* ///////////////////////// */
 
     section {
         margin: 80px 0!important;
     }
     
-    .title-box {
-        margin-bottom: 32px;
-    }
-    .title-box .title {
-        font-size: 32px;
-        text-transform: initial;
-    }
-
-    .header-stick,
-    .header-stick.active {
-        padding: 11.5px 15px;
-    }
-
-    .megamenu-mobile .logo,
-    .logo {
-        max-width: 110px;
-    }
-
-    .banner-the-highest .form-group {
-        width: 50%;
-    }
-    .banner-the-highest .form-group-button,
-    .banner-the-highest .form-group:first-child .form-control,
-    .banner-the-highest .form-group:first-child {
-        width: 100%;
-    }
-    .banner-the-highest .form-group .form-control {
-        display: -webkit-box;
-        -webkit-line-clamp: 1;
-        -webkit-box-orient: vertical;
-        overflow: hidden;
-        width: 100%;
-        text-align: left;
-    }
-    .banner-the-highest .banner-content h2 {
-        font-size: 24px;
-        line-height: 1.33;
-        margin: 0 auto;
-        margin-bottom: 16px;
-        max-width: 350px;
-    }
-    .banner-the-highest .banner-content .content {
-        margin: 0;
-        margin-bottom: 16px;
-    }
-    .banner-the-highest .banner-content .content ul {
-        width: 100%;
-        padding: 0;
-    }
-    .banner-the-highest .form-group-button {
-        padding: 0;
-    }
-    .banner-the-highest .form-button .btn {
-        padding: 15px;
-        width: 100%;
-    }
-    .banner-the-highest .socials-box li:nth-child(3n):after {
-        display: none;
-    }
-    .banner-the-highest .socials-box ul {
-        margin: -16px -35px;
-        justify-content: center;
-    }
-    .banner-the-highest .socials-box li {
-        padding: 16px 35px;
-        margin-bottom: 0;
-    }
-    .banner-the-highest .socials-box li:nth-child(3n) {
-        padding-right: 16px;
-        margin-right: 0;
-    }
-    .banner-the-highest {
-        background-image: url(../images/mobile/bg-02.png);
-        background-repeat: no-repeat;
-        background-position: right top;
-        margin-top: 0 !important;
-    }
-    .banner-the-highest:after,
-    .banner-the-highest:before {
-        display: none;
-    }
-
-    .banner-the-greatest {
-        padding-top: 0;
-        padding-bottom: 0;
-    }
-    .banner-the-greatest:after {
-        width: 87px;
-        height: 130px;
-        background-image: url(../images/mobile/bg-04.png);
-        right: 0;
-        top: -68px;
-    }
-    .banner-the-greatest:before {
-        width: 104px;
-        height: 130px;
-        background-image: url(../images/mobile/bg-05.png);
-        bottom: -58px;
-    }
-    .banner-the-greatest .banner-box {
-        padding: 0;
-        background-image: url(../images/mobile/bg-03.png);
-        flex-direction: column-reverse;
-    }
-    .banner-the-greatest .banner-content {
-        max-width: 100%;
-        padding: 15px 15px 24px;
-    }
-    .banner-the-greatest .banner-content h2 {
-        margin-bottom: 16px;
-    }
-
-    .banner-missed .banner-content {
-        margin-top: 16px;
-        text-align: center;
-    }
-    .banner-missed .button-box .btn {
-        padding: 11px 15px;
-        width: 100%;
-    }
-    .banner-missed .banner-box {
-        max-width: 100%;
-    }
-    .banner-missed .banner-image img {
-        width: 100%;
-    }
-    
-    .banner-go-ahead ul li {
-        flex-wrap: wrap;
-    }
-    .banner-go-ahead li label {
-        min-width: 100%;
-        margin-right: 0;
-    }
-    .banner-go-ahead li label {
-        margin-bottom: 8px;
-    }
-
-    .banner-the-best .banner-box {
-        max-width: 100%;
-        margin-bottom: 96px !important;
-        text-align: center;
-    }
-    .banner-the-best .row > *:last-child .banner-box {
-        margin-bottom: 0 !important;
-    }
-    
-    .banner-lockearn {
-        padding-top: 56px;
-        padding-bottom: 256px;
-        margin-bottom: 202px;
-    }
-    .banner-lockearn .banner-box {
-        max-width: 100%;
-    }
-    .banner-lockearn .banner-content h2 {
-        margin-bottom: 32px;
-    }
-    .banner-lockearn .banner-content .btn {
-        padding: 12.5px 20px;
-        width: 100%;
-    }
-    .banner-lockearn + .bg-image {
-        width: 375px;
-        height: 375px;
-        top: auto;
-        right: auto;
-        bottom: 0;
-        left: 50%;
-        transform: translate(-50%, 50%);
-        text-align: center;
-    }
-
-    .banner-how-it .row > *:not(:last-child) .banner-box {
-        margin-bottom: 48px !important;
-    }
-
-    .banner-competitive .banners-box,
-    .banner-frequently .banners-box {
-        max-width: 100%;
-    }
-
-    .footer-main .footer-box .title:after,
-    .footer:before {
-        display: none;
-    }
-
-    /* ///////////////////////// */
-
-    .page-body .header-stick {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding: 11px 0;
-    }
-    .page-body .header:not(.header-mobile) {
-        padding-top: 0;
-        border: none;
-    }
-    .megamenu-mobile .content-header {
-        padding: 12px 0;
-        margin-bottom: 28px;
-    }
-
-    .page-body .megamenu-content {
-        margin-top: 0;
-        padding-right: 0;
-    }
-    .page-body .megamenu-mobile .nav li:not(:last-child) {
-        margin-bottom: 0;
-    }
-
-    .page-title {
-        text-align: left;
-        margin-top: 21px;
-        margin-bottom: 24px;
-    }
-
-    .main-header {
-        padding: 0 0 32px;
-    }
-    .main-header .btn {
-        width: 100%;
-        order: 3;
-        margin-left: 0;
-    }
-    .main-header .btn-3,
-    .main-header .btn-2 {
-        width: calc(50% - 8px);
-        margin-bottom: 16px;
-    }
-    .main-header .btn-3 {
-        order: 1;
-    }
-    .main-header .btn-2 {
-        order: 2;
-        margin-left: 16px;
-    }
-
-    .dashboard-box {
-        margin: -8px;
-        justify-content: flex-start;
-    }
-    .dashboard-box .item {
-        padding: 8px;
-    }
-    
-    .page-diamond-hands-reward .main-header .btn,
-    .page-calculator .main-header .btn,
-    .page-account .main-header .btn {
-        width: calc(50% - 8px);
-        margin-bottom: 16px
-    }
-    .page-diamond-hands-reward .main-header .btn-3,
-    .page-calculator .main-header .btn-3,
-    .page-account .main-header .btn-3 {
-        margin-right: 16px;
-    }
-    
-    .page-title .title {
-        font-size: 24px;
-    }
-
-    .page-diamond-hands-reward {
-        padding-bottom: 43px;
-    }
 }
 
 @media(max-width: 767px) {
-    .title-box {
-        margin-bottom: 30px;
+    .order-md-1 {
+        order: 1;
     }
-    
-    .footer-main .footer-box .title {
-        display: block;
-        margin-bottom: 30px;
+    .order-md-2 {
+        order: 2;
     }
-    .footer-main .footer-box .title:after {
-        display: none;
-    }
-
-    section {
-        margin: 50px 0!important;
-    }
-
-    .banner-the-highest {
-        margin-top: 0 !important;
-    }
-
-    .banner-the-best .banner-box {
-        margin-bottom: 26px;
-    }
-
-    .banner-lockearn-nft .banner-content,
-    .banner-lockearn-nft .banner-image {
-        max-width: 100%;
-    }
-    .banner-lockearn-nft .banner-image {
-        text-align: center;
-    }
-    .banner-lockearn-nft .banner-content {
-        padding-left: 0;
-        margin-top: 15px;
-    }
-
-    .banner-the-greatest .banner-box {
-        padding: 20px;
-    }
-
-    .banner-go-ahead .progress {
-        position: relative;
-    }
-
-    .banner-how-it,
-    .banner-competitive {
-        padding: 30px 0;
-    }
-
-    .banner-the-highest .banner-content .content ul {
-        width: 100%;
-    }
-
-    /* ///////////////////////////////// */
-    
-    .banner-buy-tax .title-box {
-        text-align: center;
-    }
-    .banner-buy-tax .banner-box ul:not(:last-child) {
-        margin-bottom: 44px;
-    }
-    .banner-buy-tax .banner-box ul {
-        justify-content: center;
-    }
-    .banner-buy-tax .banner-box li {
-        width: 100%;
-        text-align: center;
-        margin-left: 0 !important;
-    }
-    .banner-buy-tax .banner-box li:not(:last-child) {
-        margin-bottom: 16px;
-    }
-    .banner-buy-tax .banner-box li label {
-        display: inline-block;
-        margin-right: 3px;
-        text-transform: uppercase;
-    }
-    
-    .banner-lockearn-nft .banner-content {
-        margin-top: 24px;
-        text-align: center;
-    }
-
-    .banner-go-ahead li .number {
-        position: absolute;
-        right: 0;
+    .order-md-3 {
+        order: 3;
     }
 
     /* ///////////////////////// */
 
-    .dashboard-box .item {
-        width: 100%;
+    .banner-what-is .banner-content img {
+        max-width: 230px;
+        margin-bottom: 24px;
+    }
+    .banner-what-is .banner-content .title {
+        margin-bottom: 16px;
+    }
+    
+    .banner-laeeb-map .banner-image {
+        max-width: 343px;
+        margin: 0 auto;
     }
 
-    .account-box {
-        padding: 9px 25px;
+    .banner-laeeb-map .groups-box > * {
+        width: 100%;
     }
-    .account-box li {
+    .banner-laeeb-map .banner-content img {
+        max-width: 167px;
+        margin: 0 auto 16px;
         display: block;
-        padding: 16px 0;
-    }
-    .account-box li span:first-child {
-        display: block;
-        font-size: 16px;
-        margin-bottom: 8px;
     }
 
-    .calculator-box li {
+    .banner-listed-exchanges .groups-box > * {
+        width: 50%;
+    }
+
+    .banner-featured-on .groups-box > * {
         width: 100%;
+    }
+    .banner-featured-on .groups-box > *:not(:last-child) {
+        width: 50%;
+    }
+
+    .banner-tokenomics .banner-box.box-title {
+        max-width: 343px;
+        margin: 0 auto 40px;
+    }
+    .banner-tokenomics .banner-box:not(.box-title) .banner-image {
+        text-align: center;
+        margin-bottom: 24px;
+    }
+
+    .socials-box ul li img {
+        width: 32px;
+    }
+
+    .footer-main {
+        padding-bottom: 0;
+    }
+    .footer-main .footer-box {
+        padding-bottom: 20px;
     }
 }
 
@@ -598,84 +223,8 @@
     .group-box > .item {
         width: 100%;
     }
-
-    .banner-the-highest .form-group:first-child .form-control {
-        width: 100%;
-    }
-
-    .footer-main .socials-box ul li {
-        width: auto;
-    }
-
-    /* ///////////////////////////////// */
-    
-    .banner-competitive {
-        padding: 64px 0 8px;
-    }
-    .banner-competitive .title-box {
-        padding: 0 15px;
-    }
-    .banner-competitive .banner-box {
-        overflow-x: auto;
-        padding-bottom: 46px;
-    }
-    .banner-competitive .banner-box::-webkit-scrollbar {
-        height: 8px;
-    }
-    .banner-competitive .banner-box::-webkit-scrollbar-track {
-        background-color: transparent;
-    }
-    .banner-competitive .banner-box::-webkit-scrollbar-thumb {
-        background-color: #31343F;
-        border-radius: 16px;
-    }
-    .banner-competitive .banner-box::-webkit-scrollbar-thumb:hover {
-        background-color: #31343F;
-        border-radius: 16px;
-    }
-    .banner-competitive .banner-content {
-        width: 495px;
-        margin: 0 auto;
-        padding-left: 15px;
-    }
-    .banner-competitive .container {
-        padding: 0;
-    }
-
-    .footer-main {
-        padding-bottom: 22px;
-    }
-    .footer-main .footer-box {
-        padding-bottom: 0;
-    }
-    .footer-main .footer-box .title {
-        justify-content: center;
-        margin-bottom: 32px;
-    }
-    .footer-main .socials-box ul {
-        margin: -8px -15px;
-    }
-    .footer-main .socials-box ul li {
-        width: 100%;
-        padding: 8px 15px;;
-    }
-
-    .main-header .btn {
-        padding: 8px 15px;
-    }
 }
 
 @media(max-width: 374px) {
-    .page-diamond-hands-reward .main-header .btn,
-    .page-calculator .main-header .btn,
-    .page-account .main-header .btn,
-    .main-header .btn-3, .main-header .btn-2 {
-        width: 100%;
-        margin-left: 0;
-        margin-right: 0;
-    }
 
-    .dashboard-box .box .content {
-        font-size: 20px;
-    }
 }

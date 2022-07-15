@@ -132,10 +132,15 @@ section {
 
 .banner-laeeb-doge {
 	margin: 0 0 56px;
+	margin-top: 0 !important;
 }
 .banner-laeeb-doge .banner-content {
 	text-align: center;
 	margin-top: 56px;
+}
+.banner-laeeb-doge .banner-image img {
+	min-height: 550px;
+	object-fit: cover;
 }
 
 .banner-what-is {
@@ -191,6 +196,12 @@ section {
 	margin-top: 40px;
 	margin-bottom: 8px;
 }
+.banner-why-laeeb-doge .banner-image {
+	text-align: center;
+}
+.banner-why-laeeb-doge .banner-image img {
+	margin: 0 auto;
+}
 
 .banner-laeeb-map .banner-image {
 	text-align: center;
@@ -212,12 +223,20 @@ section {
 	list-style: disc;
 }
 
+.banner-listed-exchanges .groups-box {
+	margin: -8px -15px;
+}
 .banner-listed-exchanges .groups-box > * {
 	width: 25%;
+	padding: 8px 15px;
 }
 
+.banner-featured-on .groups-box {
+	margin: -8px -15px;
+}
 .banner-featured-on .groups-box > * {
 	width: calc(100% / 3);
+	padding: 8px 15px;
 }
 .banner-featured-on .last {
 	display: flex;
@@ -227,6 +246,9 @@ section {
 .banner-featured-on .last > * {
 	padding: 0 10px;
 	width: 50%;
+}
+.banner-featured-on .banner-image {
+	text-align: center;
 }
 
 .banner-tokenomics .title-box {
@@ -246,13 +268,27 @@ section {
 .banner-tokenomics .banner-content ul li:not(:last-child) {
 	margin-bottom: 6px;
 }
-
+.banner-tokenomics .banner-content ul li {
+	display: flex;
+	flex-wrap: wrap;
+}
+.banner-tokenomics .banner-content ul li strong {
+	width: 143px;
+	display: inline-block;
+}
+.banner-tokenomics .banner-content ul li span {
+	width: calc(100% - 143px);
+	display: inline-block;
+	overflow-wrap: break-word;
+}
+ 
 .banner-laeeb-video .banner-content {
 	max-width: 796px;
 	margin: 0 auto;
 }
 .banner-laeeb-video .banner-image {
 	margin-bottom: 40px;
+	text-align: center;
 }
 
 .socials-box ul {
