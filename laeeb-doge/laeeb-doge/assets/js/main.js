@@ -147,7 +147,8 @@ jQuery(document).ready(function($) {
 
 // menu mobile
 jQuery(document).ready(function($) {
-    $('.megamenu-mobile .menu-close').click(function(e){
+    // $('.megamenu-mobile .menu-close').click(function(e){
+    $(document).on('click', '.megamenu-mobile .menu-close', function (e) {
         e.preventDefault();
         $('.megamenu-mobile .mobile-content').removeClass('active');
     });
