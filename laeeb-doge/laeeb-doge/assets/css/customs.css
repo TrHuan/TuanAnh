@@ -286,6 +286,10 @@ section {
 	max-width: 796px;
 	margin: 0 auto;
 }
+.banner-laeeb-video .banner-content iframe {
+	min-height: 425px;
+	height: auto;
+}
 .banner-laeeb-video .banner-image {
 	margin-bottom: 40px;
 	text-align: center;
