@@ -158,6 +158,10 @@
         margin: 80px 0!important;
     }
     
+    .banner-laeeb-map .groups-box > *,
+    .banner-laeeb-map .groups-box > *:nth-child(2n) {
+        max-width: 50%;
+    }    
 }
 
 @media(max-width: 767px) {
@@ -232,6 +236,20 @@
 
     .banner-laeeb-video .banner-content iframe {
         min-height: 300px;
+    }
+    
+    .banner-laeeb-map .groups-box > *,
+    .banner-laeeb-map .groups-box > *:nth-child(2n) {
+        max-width: 100%;
+    }
+
+    .banner-why-laeeb-doge:before {
+        bottom: 22px;
+    }
+
+    .banner-laeeb-map:before {
+        top: auto;
+        bottom: 25px;
     }
 }
 

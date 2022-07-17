@@ -183,6 +183,20 @@ section {
 	color: #fff;
 }
 
+.banner-why-laeeb-doge {
+	position: relative;
+}
+.banner-why-laeeb-doge:before {
+	content: '';
+	width: 240px;
+	height: 771px;
+	display: block;
+	background-image: url(../images/bg-01.png);
+	background-repeat: no-repeat;
+	position: absolute;
+	left: 0;
+	bottom: -180px;
+}
 .banner-why-laeeb-doge .banner-content {
 	text-align: center;
 	max-width: 634px;
@@ -203,12 +217,33 @@ section {
 	margin: 0 auto;
 }
 
+.banner-laeeb-map {
+	position: relative;
+}
+.banner-laeeb-map:before {
+    content: '';
+    width: 263px;
+    height: 612px;
+    display: block;
+    background-image: url(../images/bg-02.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 0;
+    top: -240px;
+}
 .banner-laeeb-map .banner-image {
 	text-align: center;
 }
+.banner-laeeb-map .groups-box {
+	justify-content: space-between;
+}
 .banner-laeeb-map .groups-box > * {
-	width: 50%;
-	margin-top: 40px;
+    width: 50%;
+    margin-top: 40px;
+    max-width: 440px;
+}
+.banner-laeeb-map .groups-box > *:nth-child(2n) {
+	max-width: 390px;
 }
 .banner-laeeb-map .banner-content img {
 	margin-bottom: 16px;
