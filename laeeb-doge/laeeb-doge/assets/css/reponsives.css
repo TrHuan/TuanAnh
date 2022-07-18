@@ -162,6 +162,10 @@
     .banner-laeeb-map .groups-box > *:nth-child(2n) {
         max-width: 50%;
     }    
+    
+    .banner-why-laeeb-doge .banner-content .item {
+        width: 50%;
+    }
 }
 
 @media(max-width: 767px) {
@@ -250,6 +254,10 @@
     .banner-laeeb-map:before {
         top: auto;
         bottom: 25px;
+    }   
+    
+    .banner-why-laeeb-doge .banner-content .item {
+        width: 100%;
     }
 }
 
