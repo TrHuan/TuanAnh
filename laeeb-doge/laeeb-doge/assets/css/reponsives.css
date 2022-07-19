@@ -269,6 +269,13 @@
     .banner-laeeb-video .banner-content iframe {
         min-height: 270px;
     }
+
+    .banner-laeeb-doge .banner-image .btn {
+        padding: 13px 20px;
+    }
+    .banner-laeeb-doge .banner-image .btn:first-child {
+        margin-right: 0;
+    }
 }
 
 @media(max-width: 374px) {

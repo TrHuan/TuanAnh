@@ -142,6 +142,29 @@ section {
 	min-height: 550px;
 	object-fit: cover;
 }
+.banner-laeeb-doge .banner-image {
+	position: relative;
+}
+.banner-laeeb-doge .banner-image .btns {
+	position: absolute;
+	left: 50%;
+	bottom: 30px;
+	transform: translateX(-50%);
+	text-align: center;
+	width: 100%;
+}
+.banner-laeeb-doge .banner-image .btn {
+	background: linear-gradient(180deg, #D79917 0%, #C58400 55.73%, #D79917 86.98%);
+	border-radius: 10px;
+	padding: 13px 65px;
+	margin-top: 24px;
+}
+.banner-laeeb-doge .banner-image .btn:hover {
+	color: #fff;
+}
+.banner-laeeb-doge .banner-image .btn:first-child {
+	margin-right: 15px;
+}
 
 .banner-what-is {
 	margin-top: 56px;
