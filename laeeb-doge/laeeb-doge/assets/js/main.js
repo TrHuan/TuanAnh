@@ -34,23 +34,62 @@ jQuery(document).ready(function($) {
 });
 
 jQuery(document).ready(function($) {
-    var swiper = new Swiper( '.swiper-slider-3d', {
-        effect: 'coverflow',
-        loop: true,
-        centeredSlides: true,
-        slidesPerView: 'auto',
-        autoplay: {
-           delay: 2000,
-        },
-        speed: 2000,
-        coverflow: {
-            rotate: 0,
-            stretch: 80,
-            depth: 200,
-            modifier: 1,
-            slideShadows : false,
-        }
-    } );
+    if ( jQuery().slick ) {
+        var slick = jQuery(".swiper-slider");
+        slick.each(function(){
+            var item        = jQuery(this).data('item'),
+                item_lg     = jQuery(this).data('item_lg'),
+                item_md     = jQuery(this).data('item_md'),
+                item_sm     = jQuery(this).data('item_sm'),
+                item_mb     = jQuery(this).data('item_mb'),
+                dots        = jQuery(this).data('dots'),
+                arrows      = jQuery(this).data('arrows'),
+                autoplay    = jQuery(this).data('autoplay');
+            jQuery(this).slick({
+                loop: true,
+                autoplay: autoplay,
+                infinite: true,
+                autoplaySpeed: 2000,
+                slidesToScroll: 1,
+                slidesToShow: item,
+                lazyLoad: 'ondemand',
+                dots: dots,
+                arrows: arrows,
+                prevArrow: '<a class="slick-arrow slick-prev" href="javascript:0"><i class="icofont-thin-left icon"></i></a>',
+                nextArrow: '<a class="slick-arrow slick-next" href="javascript:0"><i class="icofont-thin-right icon"></i></a>',
+                responsive: [
+                    {
+                        breakpoint: 1200,
+                        settings: {
+                            slidesToShow: item_lg,
+                            slidesToScroll: 1,
+                        }
+                    },
+                    {
+                        breakpoint: 992,
+                        settings: {
+                            slidesToShow: item_md,
+                            slidesToScroll: 1,
+                        }
+                    },
+                    {
+                        breakpoint: 768,
+                        settings: {
+                            slidesToShow: item_sm,
+                            slidesToScroll: 1,
+                        }
+                    },
+                    {
+                        breakpoint: 576,
+                        settings: {
+                            slidesToShow: item_mb,
+                            slidesToScroll: 1,
+                        }
+                    }
+                ]
+            });
+        });
+    }
 
 });
 
