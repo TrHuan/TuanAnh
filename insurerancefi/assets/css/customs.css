@@ -191,7 +191,7 @@ a {
 .body-main {
 	background-image: url(../images/bg-01.png);
 	background-repeat: no-repeat;
-	background-size: 100% auto;
+	background-size: 100% 940px;
 	overflow: hidden;
 }
 
