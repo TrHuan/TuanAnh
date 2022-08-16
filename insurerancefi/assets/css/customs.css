@@ -540,6 +540,13 @@ section {
 	transform: translateY(-50%);
 }
 
+.banner-style-06 {
+	background-image: url(../images/bg-10.png);
+	background-repeat: no-repeat;
+	background-position: 100% 100%;
+	margin-bottom: 0;
+	padding-bottom: 112px;
+}
 .banner-style-06 .title-box {
     max-width: 800px;
 }
@@ -547,6 +554,12 @@ section {
 	margin-top: 160px;
 }
 
+.banner-style-07 {
+	background-image: url(../images/bg-09.png);
+	background-repeat: no-repeat;
+	background-position: 0 135px;
+	margin-top: 0;
+}
 .banner-style-07 .banner-content {
 	max-width: 702px;
 	margin: 0 auto 73px;
