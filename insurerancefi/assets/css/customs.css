@@ -484,6 +484,7 @@ section {
 	text-align: center;
 	background-image: url(../images/bg-03.png);
 	background-repeat: no-repeat;
+	background-size: 100% 100%;
 	font-weight: 400;
 	font-size: 14px;
 	line-height: 24px;
