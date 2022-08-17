@@ -363,7 +363,7 @@ section {
 	padding-bottom: 240px;
 	background-image: url(../images/bg-05.png);
 	background-repeat: no-repeat;
-	background-size: 100% auto;
+	background-size: 100% 100%;
 }
 .banner-style-05 .title-box,
 .banner-style-04 .title-box {
