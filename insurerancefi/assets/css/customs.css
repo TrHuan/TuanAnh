@@ -57,7 +57,7 @@ body {
 	/* overflow-x: hidden; */
 	font-family: 'Inter', sans-serif;
 	font-size: 14px;
-	background-color: #22252d;
+	background-color: #050d16;
 	color: #fff;
 }
 
@@ -360,7 +360,7 @@ section {
 .banner-style-04 {
 	margin-bottom: 0;
 	padding-top: 150px;
-	padding-bottom: 235px;
+	padding-bottom: 240px;
 	background-image: url(../images/bg-05.png);
 	background-repeat: no-repeat;
 	background-size: 100% auto;
@@ -456,6 +456,7 @@ section {
 	background-image: url(../images/bg-06.png);
 	background-repeat: no-repeat;
 	background-position: left bottom;
+	background-size: 100% auto;
 	padding-bottom: 200px;
 }
 .banner-style-05 .banners-box {
