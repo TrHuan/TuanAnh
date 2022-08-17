@@ -52,6 +52,10 @@
     .banner-style-06 .banner-image {
         margin-top: 30px;
     }
+
+    .banner-style-04 {
+        background-size: 100% auto;
+    }
 }
 
 @media(max-width: 991px) {
