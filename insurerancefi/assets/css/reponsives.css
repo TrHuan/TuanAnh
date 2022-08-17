@@ -236,6 +236,11 @@
     .banner-style-04 .banner-content > ul {
         display: block;
     }
+    .banner-style-07 .banner-content > ul li,
+    .banner-style-05 .banner-content > ul li,
+    .banner-style-04 .banner-content > ul li {
+        width: 100%;
+    }
 
     .banner-groups .item {
         width: 100%;
