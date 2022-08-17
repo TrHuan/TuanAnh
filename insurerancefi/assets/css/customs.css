@@ -265,13 +265,16 @@ section {
 }
 .banner-style-01 .banner-content .socials-box {
 	margin-top: 16px;
-	margin-bottom: 80px;
+	margin-bottom: 0;
 }
 .banner-style-01 .banner-image img {
 	width: 100%;
 }
 
-.banner-style-02 .banners-box {
+.banner-style-01 .banner-style-02 {
+	margin: 128px 0 146px;
+}
+.banner-style-01 .banner-style-02 .banners-box {
 	display: flex;
 	flex-wrap: wrap;
 	margin: -16px;
@@ -279,7 +282,7 @@ section {
 	max-width: 1250px;
 	margin: 0 auto;
 }
-.banner-style-02 .banners-box:after {
+.banner-style-01 .banner-style-02 .banners-box:after {
 	content: url(../images/bg-02.png);
 	display: inline-block;
 	position: absolute;
@@ -287,13 +290,13 @@ section {
 	right: -90px;
 	z-index: 2;
 }
-.banner-style-02 .banners-box .item {
+.banner-style-01 .banner-style-02 .banners-box .item {
 	padding: 16px;
 	width: calc(100% / 3);
 	position: relative;
 	z-index: 4;
 }
-.banner-style-02 .banner-box {
+.banner-style-01 .banner-style-02 .banner-box {
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 24px;
@@ -303,18 +306,24 @@ section {
 	border-radius: 12px;
 	height: 100%;
 }
-.banner-style-02 .banner-box h2 {
+.banner-style-01 .banner-style-02 .banner-content {
+	text-align: left;
+}
+.banner-style-01 .banner-style-02 .banner-box h2 {
 	font-weight: 600;
 	font-size: 24px;
 	line-height: 24px;
 	color: #FFFFFF;
 	margin-bottom: 16px;
 }
-.banner-style-02 .banner-box p:not(:last-child) {
+.banner-style-01 .banner-style-02 .banner-box p:not(:last-child) {
 	margin-bottom: 24px;
 }
-.banner-style-02 .banner-image {
+.banner-style-01 .banner-style-02 .banner-image {
 	margin-bottom: 24px;
+}
+.banner-style-01 .banner-style-02 .banner-image img {
+    width: auto;
 }
 
 .banner-style-03 .title-box {
