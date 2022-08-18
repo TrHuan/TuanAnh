@@ -962,24 +962,17 @@ footer {
 	list-style: disc;
 }
 
-.main-calculator .calculator-box .title-box {
-	border: none;
-}
 .main-calculator .calculator-box .title-box .title {
     margin-bottom: 0;
-}
-
-.main-calculator .calculator-box .banner-box {
-	padding: 0 24px;
 }
 
 .calculator-box .banner-box {
 	display: flex;
 	flex-wrap: wrap;
-	margin: -24px -28px;
+	margin: 0 -28px;
 }
 .calculator-box .banner-box .item {
-	padding: 24px 28px;
+	padding: 0 28px;
 	width: 50%;
 }
 .calculator-box ul {
@@ -1121,5 +1114,61 @@ footer {
 }
 .calculator-box .banner-content-2 .btn {
 	padding: 8px 53px;
-	border-radius: 4px ;
+	border-radius: 4px;
+}
+
+.main-calculator .banner-box .banner-box {
+    padding: 12px 24px 24px;
+}
+.stake-box .banner-box {
+	display: block;
+	margin: 0;
+}
+.stake-box .banner-content ul label.number {
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 24px;
+	background: linear-gradient(180deg, #5AC2AC 0%, #70ECAA 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	text-fill-color: transparent;
+}
+.stake-box .banner-content ul.bottom {
+	margin: 0;
+}
+.stake-box .banner-content ul.bottom li {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.stake-box .banner-content ul.top {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 0;
+	margin-bottom: 40px;
+}
+.stake-box .banner-content ul.top li {
+	width: auto;
+}
+.stake-box .banner-content ul.top label {
+	display: block;
+	margin-bottom: 16px;
+}
+.stake-box .banner-content ul.top label.number {
+	margin-bottom: 0;
+}
+.stake-box .banner-content .btns {
+	justify-content: flex-end;
+	align-items: center;
+	margin: -8px;
+	margin-top: 24px;
+	display: flex;
+}
+.stake-box .banner-content .btn {
+	padding: 8px 40px;
+	border-radius: 4px;
+	margin: 8px;
+	min-width: 158px;
 }
