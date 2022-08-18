@@ -728,3 +728,202 @@ footer {
 }
 
 /* ///////////////////////////// */
+
+.page-site {
+	margin-bottom: 293px;
+}
+
+.page-body .body-main {
+    background-image: url(../images/bg-11.png);
+    background-size: 252px 270px;
+	background-position: bottom right;
+}
+
+.page-body .main-site {
+    background: none;
+}
+
+.page-body .header-stick {
+	padding: 0;
+}
+.page-body .megamenu-content {
+	display: block;
+	margin-top: 40px;
+	padding-right: 20px;
+}
+.page-body .megamenu-desktop .megamenu-content ul {
+	display: block;
+}
+.page-body .megamenu-content .item {
+	padding: 0;
+	border-radius: 12px;
+	transition: all 400ms;
+}
+.page-body .megamenu-content .item:hover,
+.page-body .megamenu-content .item.active {
+	background: #191B20;
+}
+.page-body .megamenu a .img {
+	position: relative;
+	width: 24px;
+	height: 24px;
+	display: inline-block;
+	margin-right: 16px;
+}
+.page-body .megamenu a .img img {
+	position: relative;
+	z-index: 1;
+	transition: all 400ms;
+	margin-right: 0;
+}
+.page-body .megamenu a .img .ac {
+	position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+	height: 100%;
+	z-index: 2;
+	opacity: 0;
+	visibility: hidden;
+}
+.page-body .megamenu .item.active a .img img,
+.page-body .megamenu a:hover .img img {
+	opacity: 0;
+	visibility: hidden;
+}
+.page-body .megamenu .item.active a .img .ac,
+.page-body .megamenu .item:hover a .img .ac {
+	opacity: 1;
+	visibility: initial;
+}
+.page-body .megamenu .nav a {
+	padding: 16px 20px;
+	color: #7F8596;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	border-radius: 12px;
+	position: relative;
+	font-weight: 700;
+}
+/* .page-body .megamenu .nav a > span {
+	position: relative;
+	z-index: 4;
+}
+.page-body .megamenu .nav a:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border-radius: 12px;
+	background: #191B20;
+	z-index: 2;
+	opacity: 0;
+} */
+.page-body .megamenu .item.active a,
+.page-body .megamenu-content .nav .item:hover a {
+	background: linear-gradient(180deg, #4499C6 0%, #6FE8AB 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	text-fill-color: transparent;
+}
+/* .page-body .megamenu .item.active a:before,
+.page-body .megamenu-content .nav a:hover:before {
+	opacity: 1;
+} */
+.page-body .megamenu-content .nav {
+	display: block;
+}
+
+.page-body .header:not(.header-mobile) {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+	padding-top: 36px;
+	border-right: 1px solid rgba(228, 228, 228, 0.1);
+}
+.page-body .header .socials-box {
+	margin-top: 50px;
+	padding: 16px 0;
+	border-top: 1px solid rgba(228, 228, 228, 0.1);
+}
+.page-body .header .socials-box ul {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: flex-start;
+	margin: 0 -16px;
+}
+.page-body .header .socials-box li {
+	margin-bottom: 0;
+	padding: 0 16px;
+}
+.page-body .socials-box a {
+	background: none;
+    border-radius: 0;
+    padding: 0;
+}
+
+.main-header {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: flex-end;
+	padding: 48px 0 44px;
+}
+.main-header .btn {
+    border-radius: 12px;
+	font-size: 16px;
+    font-weight: 700;
+    padding: 8px 34px;
+    margin-left: 16px;
+}
+
+.dashboard-box {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	margin: -16px;
+}
+.dashboard-box .item {
+	width: calc(100% / 3);
+	padding: 16px;
+}
+.dashboard-box .box {
+	background: #22252D;
+	border-radius: 24px;
+}
+.dashboard-box .box label {
+	font-weight: 500;
+	font-size: 18px;
+	letter-spacing: -0.02em;
+	padding: 27px 24px;
+	border-bottom: 1px solid rgba(127, 133, 150, 0.1);
+	display: block;
+}
+.dashboard-box .box .content {
+	font-weight: 700;
+	font-size: 24px;
+	letter-spacing: -0.02em;
+	padding: 26px 24px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	font-family: 'Archivo', sans-serif;
+}
+.dashboard-box .box .content .small {
+	font-size: 14px;
+	color: #4FBF67;
+	display: flex;
+	align-items: center;
+	font-family: 'Inter', sans-serif;
+}
+.dashboard-box .box .content .small img {
+	margin-right: 8px;
+}
+.dashboard-box .box .content .small-2 {
+	color: #FF7A68;
+}

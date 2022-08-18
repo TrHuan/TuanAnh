@@ -33,6 +33,19 @@
     
 }  
 
+@media(min-width: 992px) and (max-width: 1199px) { 
+    .page-body .megamenu .nav a {
+        white-space: nowrap;
+        overflow: hidden;
+    }
+    .page-body .megamenu a .img {
+        margin-right: 0;
+    }
+    .page-body .megamenu a .img + span {
+        padding-left: 5px;
+    }
+}
+
 @media(max-width: 1199px) { 
     .title-box .title {
         font-size: 34px;
@@ -228,6 +241,57 @@
     .footer-box .logo {
         margin-bottom: 30px;
     }
+
+    /* ///////////////////////// */
+
+    .page-body .header-stick {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 11px 0;
+    }
+    .page-body .header:not(.header-mobile) {
+        padding-top: 0;
+        border: none;
+    }
+    .megamenu-mobile .content-header {
+        padding: 12px 0;
+        margin-bottom: 28px;
+    }
+
+    .page-body .megamenu-content {
+        margin-top: 0;
+        padding-right: 0;
+    }
+    .page-body .megamenu-mobile .nav li:not(:last-child) {
+        margin-bottom: 0;
+    }
+
+    .page-title {
+        text-align: left;
+        margin-top: 21px;
+        margin-bottom: 24px;
+    }
+    .page-title .title {
+        font-size: 24px;
+    }
+
+    .main-header {
+        padding: 0 0 32px;
+    }
+    .main-header .btn {
+        width: 100%;
+        order: 3;
+        margin-left: 0;
+    }
+    
+    .dashboard-box {
+        margin: -8px;
+        justify-content: flex-start;
+    }
+    .dashboard-box .item {
+        padding: 8px;
+    }
 }
 
 @media(max-width: 767px) {
@@ -277,6 +341,12 @@
     .footer-main .footer-box {
         padding-bottom: 0;
     }
+
+    /* ///////////////////////////////// */
+
+    .dashboard-box .item {
+        width: 100%;
+    }
 }
 
 @media(max-width: 575px) {
@@ -295,11 +365,21 @@
     .banner-style-01 .banner-style-02 .banner-box {
         padding: 15px;
     }
+
+    /* ///////////////////////////////// */
+
+    .main-header .btn {
+        padding: 8px 15px;
+    }
 }
 
 @media(max-width: 374px) {
     .socials-box ul {
         flex-direction: column;
         align-items: center;
+    }
+
+    .dashboard-box .box .content {
+        font-size: 20px;
     }
 }
