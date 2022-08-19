@@ -408,6 +408,11 @@
     .calculator-box .banner-content-2 label.number {
         margin-top: 10px;
     }
+
+    .banner-style-01 {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
 }
 
 @media(max-width: 575px) {
