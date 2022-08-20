@@ -192,12 +192,12 @@ a {
 	border: none;
 }
 
-/* .body-main {
-	background-image: url(../images/bg-01.png);
+.body-main {
+	/* background-image: url(../images/bg-01.png); */
 	background-repeat: no-repeat;
 	background-size: 100% 940px;
 	overflow: hidden;
-} */
+}
 
 section {
 	margin: 88px 0;
