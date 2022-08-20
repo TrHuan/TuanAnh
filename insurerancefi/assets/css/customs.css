@@ -1191,7 +1191,7 @@ footer {
 	background-position: 50% 50%;
   }
 
-  .banner-style-animate {
+  .banner-style-animate > .container {
 	opacity: 0;
 	transition: all 400ms;
   }
