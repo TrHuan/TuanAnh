@@ -187,7 +187,7 @@ jQuery(document).ready(function($) {
 
     setTimeout(function(){
         $('.banner-style-animate > .container').css({'opacity': '1'});
-    }, 800);  
+    }, 200);  
 
     particlesJS("particles-js", {
         particles: {
