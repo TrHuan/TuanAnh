@@ -185,6 +185,10 @@ jQuery(document).ready(function($) {
         }
     });
 
+    setTimeout(function(){
+        $('.banner-style-animate').css({'opacity': '1'});
+    }, 100);  
+
     particlesJS("particles-js", {
         particles: {
             number: { value: 80, density: { enable: true, value_area: 800 } },
