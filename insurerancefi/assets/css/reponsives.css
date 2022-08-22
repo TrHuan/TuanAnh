@@ -395,6 +395,11 @@
         margin: 0 auto;
     }
 
+    .banner-style-08,
+    .banner-style-07 {
+        background: none;
+    }
+
     /* ///////////////////////////////// */
 
     .dashboard-box .item {

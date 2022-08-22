@@ -411,6 +411,12 @@ section {
 .banner-style-04 .banner-content > ul li {
 	width: calc(100% / 6);
 	margin-bottom: 0;
+	text-align: center;
+}
+.banner-style-07 .banner-content > ul li:first-child,
+.banner-style-05 .banner-content > ul li:first-child,
+.banner-style-04 .banner-content > ul li:first-child {
+	text-align: left;
 }
 .banner-style-07 .banner-content > ul label,
 .banner-style-05 .banner-content > ul label,
@@ -420,6 +426,7 @@ section {
 	font-size: 16px;
 	line-height: 24px;
 	padding: 12px 30px;
+	color: #CCFBEF;
 }
 .banner-style-07 .banner-content > ul span,
 .banner-style-05 .banner-content > ul span,
@@ -495,15 +502,18 @@ section {
 	font-size: 14px;
 	line-height: 24px;
 	color: #CCFBEF;
-	padding: 55px 50px 90px;
+	padding: 55px 30px 90px;
 	text-align: center;
 	position: relative;
+	max-width: 287px;
+	max-height: 321px;
 }
 .banner-groups .banner-box h3 {
 	font-weight: 700;
 	font-size: 16px;
 	line-height: 24px;
 	color: #CCFBEF;
+	padding: 0 22px;
 }
 .banner-groups .banner-number {
 	width: 56px;
@@ -1194,4 +1204,14 @@ footer {
   .banner-style-animate > .container {
 	opacity: 0;
 	transition: all 400ms;
+  }
+
+  .banner-style-05 .banner-content {
+	  font-size: 14px;
+  }
+  .banner-style-05 .infor {
+	font-size: 16px;
+	text-align: center;
+	margin-bottom: 0;
+	margin-top: 14px;
   }
