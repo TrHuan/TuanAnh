@@ -21,6 +21,18 @@
     .container {
         max-width: 1170px;
     }
+
+    .new-banner-style-01 {
+        background-size: 440px 316px;
+        padding-bottom: 100px;
+    }
+
+    .banner-style-03 .banner-content {
+        padding-bottom: 190px;
+    }
+    .banner-style-03 .banner-image {
+        width: 700px;
+    }
 }
 
 @media(max-width: 1439px) {    
@@ -91,6 +103,15 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
+    }
+
+    .new-banner-style-01 {
+        background: none;
+        padding-bottom: 0;
+    }
+
+    .banner-style-03 .banner-content {
+        padding-bottom: 0;
     }
 }
 
@@ -243,12 +264,12 @@
         padding-bottom: 100px;
     }
 
-    .banner-groups .item {
+    /* .banner-groups .item {
         width: 50%;
     }
     .banner-groups .item:nth-child(2):after {
         display: none;
-    }
+    } */
 
     .banner-style-03 .title-box {
         margin-bottom: 32px;
@@ -315,6 +336,20 @@
     .dashboard-box .item {
         padding: 8px;
     }
+
+    .banner-style-10 .groups-box .item {
+        width: 50%;
+    }
+
+    .banner-style-10,
+    .banner-style-08 {
+        margin-top: 0 !important;
+    }
+
+    .banner-style-08,
+    .banner-style-07 {
+        margin-bottom: 0 !important;
+    }
 }
 
 @media(max-width: 767px) {
@@ -340,14 +375,8 @@
     .banner-groups .item {
         width: 100%;
     }
-    .footer-main .footer-box .title:after,
-    .banner-groups.groups-2 .item:not(:first-child):after,
-    .banner-groups .item:not(:last-child):after {
+    .footer-main .footer-box .title:after {
         display: none;
-    }
-    .banner-groups.groups-2 {
-        flex-direction: column;
-        margin-top: 0;
     }
 
     .banner-style-08 .banner-box .buttons {
@@ -390,10 +419,10 @@
         background: transparent;
     }
 
-    .banner-groups .banner-box {
+    /* .banner-groups .banner-box {
         max-width: 287px;
         margin: 0 auto;
-    }
+    } */
 
     .banner-style-08,
     .banner-style-07 {
@@ -416,6 +445,17 @@
 
     .banner-style-01 {
         padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .banner-groups .banner-box {
+        background: none;
+        border: 2px solid #70ECAA;
+        border-radius: 12px;
+        background: #18222E;
+    }
+
+    .banner-style-08 {
         padding-bottom: 50px;
     }
 }
@@ -451,6 +491,27 @@
     .stake-box .banner-content .btns {
         flex-direction: column;
         align-items: flex-end;
+    }
+
+    .banner-style-10 .groups-box .item {
+        width: 100%;
+    }
+
+    .socials-box ul {
+        flex-wrap: wrap;
+    }
+
+    .banner-groups .item:not(:last-child):after {
+        display: none;
+    }
+    .banner-groups .item {
+        padding-left: 0;
+        padding-top: 75px;
+    }
+    .banner-groups .banner-number {
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
     }
 }
 
