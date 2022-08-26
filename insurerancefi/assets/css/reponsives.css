@@ -285,6 +285,10 @@
     }
     .footer-box .logo {
         margin-bottom: 30px;
+        max-width: 230px;
+    }
+    .footer-main .footer-box .title-box {
+        margin-bottom: 24px;
     }
 
     /* ///////////////////////// */
@@ -415,6 +419,15 @@
     .main-calculator .banner-content > ul > li > div:before {
         display: none;
     }
+
+    .banner-style-05 .banner-bg {
+        display: none;
+    }
+
+    .megamenu .item a {
+        font-weight: 500;
+        font-size: 16px;
+    }
 }
 
 @media(max-width: 767px) {
@@ -461,6 +474,9 @@
     .banner-style-07 {
         background: none;
     }
+    .banner-style-07 {
+        padding-bottom: 50px;
+    }
 
     /* ///////////////////////////////// */
 
@@ -490,6 +506,18 @@
 
     .banner-style-08 {
         padding-bottom: 50px;
+    }
+
+    .banner-style-03 .title-box {
+        margin-bottom: 0;
+    }
+    .banner-style-03 .banner-content h3 {
+        font-size: 20px;
+        line-height: 28px;
+        text-align: center;
+    }
+    .banner-style-03 .banner-box {
+        min-height: 0;
     }
 }
 

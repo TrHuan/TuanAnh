@@ -515,7 +515,7 @@ section {
 	margin-top: -112px;
 	background-image: url(../images/bg-06.png);
 	background-repeat: no-repeat;
-	background-position: left bottom 120px;
+	background-position: left top 420px;
 	background-size: 100% auto;
 }
 .banner-style-05 .banners-box {
@@ -700,9 +700,6 @@ section {
 	background-repeat: no-repeat;
 	background-position: bottom right;
 	padding-top: 0;
-	margin-top: 0;
-	margin-bottom: 0;
-	padding-bottom: 212px;
 }
 .banner-style-08 .title-box {
     max-width: 830px;
@@ -1431,4 +1428,85 @@ section {
 .main-calculator .banner-content > ul > li.h-background > div label,
 .main-calculator .banner-content > ul > li.h-background > div span {
 	color: #fff;
+}
+
+.banner-style-09 .banners-box,
+.banner-style-08 .banners-box,
+.banner-style-07 .banners-box,
+.banner-style-05 .banners-box,
+.banner-style-04 .banners-box,
+.banner-style-03 .banners-box {
+	position: relative;
+}
+.banner-style-03 .banner-image {
+    left: 600px;
+	right: auto;
+	width: 942px;
+}
+.banner-style-07 .banner-bg,
+.banner-style-05 .banner-bg,
+.banner-style-04 .banner-bg {
+    position: absolute;
+    bottom: -254px;
+    left: -150px;
+    width: 100%;
+    height: auto;
+}
+.banner-style-04 .banner-bg-01 {
+	max-width: 209px;
+}
+.banner-style-05 .banner-bg-02,
+.banner-style-04 .banner-bg-02 {
+    max-width: 287px;
+    left: auto;
+    right: -105px;
+    bottom: -110px;
+}
+.banner-style-08,
+.banner-style-05 {
+	background: none;
+}
+.banner-style-05 .banner-bg-01 {
+    max-width: 313px;
+    bottom: auto;
+    top: 425px;
+    left: -315px;
+}
+.banner-style-05 .banner-bg-02 {
+    max-width: 313px;
+    bottom: 132px;
+    right: -235px;
+    left: auto;
+}
+.banner-style-07 .banner-bg-01 {
+    max-width: 260px;
+    bottom: auto;
+    top: 220px;
+    left: -205px;
+}
+.banner-style-07 .banner-bg-02 {
+    max-width: 504px;
+    left: auto;
+    right: -400px;
+    bottom: -250px;
+    top: auto;
+}
+.banner-style-08 {
+	padding-bottom: 0;
+	margin: 212px 0;
+}
+.banner-style-08 .banner-bg {
+    max-width: 173px;
+    position: absolute;
+    bottom: -200px;
+    right: -160px;
+}
+.banner-style-09:before {
+	display: none;
+}
+.banner-style-09 .banner-bg {
+    max-width: 173px;
+    position: absolute;
+    bottom: -62px;
+    left: -334px;
 }
