@@ -1406,11 +1406,11 @@ section {
 	background: none !important;
 	padding: 0;
 }
-.main-calculator .banner-content > ul > li.h-background > div,
-.main-calculator .banner-content > ul > li.h-border > div {
+.main-calculator .banner-content > ul > li.active > div,
+.main-calculator .banner-content > ul > li:hover > div {
 	background: linear-gradient(180deg, #4499C6 0%, #6FE8AB 100%);
 }
-.main-calculator .banner-content > ul > li.h-border > div:before {
+.main-calculator .banner-content > ul > li:hover > div:before {
 	content: '';
 	display: block;
 	background: #282B34;
@@ -1425,9 +1425,18 @@ section {
 .main-calculator .banner-content > ul > li > div label {
 	margin-bottom: 16px;
 }
-.main-calculator .banner-content > ul > li.h-background > div label,
-.main-calculator .banner-content > ul > li.h-background > div span {
+.main-calculator .banner-content > ul > li.active > div label,
+.main-calculator .banner-content > ul > li.active > div span {
 	color: #fff;
+}
+.main-calculator .banner-content > ul > li.active > div small {
+	-webkit-text-fill-color: #fff;
+}
+.main-calculator .banner-content > ul > li.active:hover > div label {
+	color: #CCFBEF;
+}
+.main-calculator .banner-content > ul > li.active:hover > div small {
+	-webkit-text-fill-color: transparent;
 }
 
 .banner-style-09 .banners-box,
