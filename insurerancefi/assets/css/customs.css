@@ -1387,3 +1387,48 @@ section {
 	box-shadow: inset 0px 4px 8px rgba(255, 255, 255, 0.16);
 	border-radius: 16px;
 }
+
+.main-calculator .banner-content > ul {
+	margin: -12px;
+}
+.main-calculator .banner-content > ul > li {
+	padding: 12px;
+}
+.main-calculator .banner-content > ul > li > div {
+	background: #282B34;
+	border-radius: 12px;
+	overflow: hidden;
+	text-align: center;
+	position: relative;
+	padding: 24px;
+}
+.main-calculator .banner-content > ul > li > div label,
+.main-calculator .banner-content > ul > li > div span {
+	position: relative;
+	z-index: 4;
+	background: none !important;
+	padding: 0;
+}
+.main-calculator .banner-content > ul > li.h-background > div,
+.main-calculator .banner-content > ul > li.h-border > div {
+	background: linear-gradient(180deg, #4499C6 0%, #6FE8AB 100%);
+}
+.main-calculator .banner-content > ul > li.h-border > div:before {
+	content: '';
+	display: block;
+	background: #282B34;
+	position: absolute;
+	z-index: 2;
+	top: 1px;
+	left: 1px;
+	width: calc(100% - 2px);
+	height: calc(100% - 2px);
+	border-radius: 12px;
+}
+.main-calculator .banner-content > ul > li > div label {
+	margin-bottom: 16px;
+}
+.main-calculator .banner-content > ul > li.h-background > div label,
+.main-calculator .banner-content > ul > li.h-background > div span {
+	color: #fff;
+}

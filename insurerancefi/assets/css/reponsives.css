@@ -411,6 +411,10 @@
         padding: 0;
         background: transparent;
     }
+
+    .main-calculator .banner-content > ul > li > div:before {
+        display: none;
+    }
 }
 
 @media(max-width: 767px) {
