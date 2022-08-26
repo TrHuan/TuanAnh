@@ -468,6 +468,7 @@ section {
 	line-height: 24px;
 	padding: 12px 30px;
 	color: #CCFBEF;
+	text-transform: capitalize;
 }
 .banner-style-07 .banner-content > ul span,
 .banner-style-05 .banner-content > ul span,
@@ -1343,12 +1344,12 @@ section {
 	color: #CCFBEF;
 }
 
-.new-banner-style-01 {
+.new-banner-style-01 .banner-box {
 	padding-bottom: 164px;
-	background-image: url(../images/banner-06.png);
+	background-image: url(../images/banner-06.svg);
 	background-repeat: no-repeat;
 	background-size: 634px 455px;
-	background-position: right 85px bottom;
+	background-position: right bottom;
 }
 .banner-style-01 .new-banner-style-01 .banner-content {
 	text-align: left;
