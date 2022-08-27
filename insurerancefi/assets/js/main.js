@@ -248,7 +248,7 @@ jQuery(document).ready(function($) {
     $('.main-calculator .banner-content > ul > li > div').click(function(){
         var hsac = $('this').parent().hasClass('active');
         if (hsac) {
-            $(this).parent().removeClass('active');
+            $('.main-calculator .banner-content > ul > li').removeClass('active');
         } else {
             $('.main-calculator .banner-content > ul > li').removeClass('active');
             $(this).parent().addClass('active');
