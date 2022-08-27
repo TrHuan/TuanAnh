@@ -245,7 +245,8 @@ jQuery(document).ready(function($) {
     //     retina_detect: true
     // });      
 
-    $('.main-calculator .banner-content > ul > li > div').click(function(){
+    // $('.main-calculator .banner-content > ul > li > div').click(function(){
+    $(document).on('click', '.main-calculator .banner-content > ul > li > div', function () {
         var hsac = $('this').parent().hasClass('active');
         if (hsac) {
             $('.main-calculator .banner-content > ul > li').removeClass('active');
