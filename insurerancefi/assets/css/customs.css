@@ -1398,6 +1398,7 @@ section {
 	text-align: center;
 	position: relative;
 	padding: 24px;
+	cursor: pointer;
 }
 .main-calculator .banner-content > ul > li > div label,
 .main-calculator .banner-content > ul > li > div span {
