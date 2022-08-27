@@ -1427,19 +1427,24 @@ section {
 .main-calculator .banner-content > ul > li > div label {
 	margin-bottom: 16px;
 }
+.main-calculator .banner-content > ul > li.active:hover > div label,
 .main-calculator .banner-content > ul > li.active > div label,
 .main-calculator .banner-content > ul > li.active > div span {
 	color: #fff;
 }
+.main-calculator .banner-content > ul > li.active:hover > div small,
 .main-calculator .banner-content > ul > li.active > div small {
 	-webkit-text-fill-color: #fff;
 }
-.main-calculator .banner-content > ul > li.active:hover > div label {
+.main-calculator .banner-content > ul > li.active:hover > div:before {
+	display: none;
+}
+/* .main-calculator .banner-content > ul > li.active:hover > div label {
 	color: #CCFBEF;
 }
 .main-calculator .banner-content > ul > li.active:hover > div small {
 	-webkit-text-fill-color: transparent;
-}
+} */
 
 .banner-style-09 .banners-box,
 .banner-style-08 .banners-box,
