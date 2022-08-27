@@ -113,6 +113,13 @@
     .banner-style-03 .banner-content {
         padding-bottom: 0;
     }
+
+    .main-calculator .banner-style-04 .banner-content > ul {
+        display: flex;
+    }
+    .main-calculator .banner-style-04 .banner-content > ul li {
+        width: 50%;
+    }
 }
 
 @media(max-width: 991px) {
@@ -429,6 +436,13 @@
         font-weight: 500;
         font-size: 16px;
     }
+
+    .main-calculator .banner-style-04 .banner-content > ul li {
+        width: calc(100% / 3);
+    }
+    .main-calculator .banner-style-04 .banner-content > ul > li > div {
+        width: 100%;
+    }
 }
 
 @media(max-width: 767px) {
@@ -520,6 +534,10 @@
     .banner-style-03 .banner-box {
         min-height: 0;
     }
+
+    .main-calculator .banner-style-04 .banner-content > ul li {
+        width: 50%;
+    }
 }
 
 @media(max-width: 575px) {
@@ -597,5 +615,9 @@
 
     .dashboard-box .box .content {
         font-size: 20px;
+    }
+
+    .main-calculator .banner-style-04 .banner-content > ul li {
+        width: 100%;
     }
 }
