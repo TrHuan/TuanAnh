@@ -1385,13 +1385,13 @@ section {
 	border-radius: 16px;
 }
 
-.main-calculator .banner-content > ul {
+.main-calculator .banner-style-04 .banner-content > ul {
 	margin: -12px;
 }
-.main-calculator .banner-content > ul > li {
+.main-calculator .banner-style-04 .banner-content > ul > li {
 	padding: 12px;
 }
-.main-calculator .banner-content > ul > li > div {
+.main-calculator .banner-style-04 .banner-content > ul > li > div {
 	background: #282B34;
 	border-radius: 12px;
 	overflow: hidden;
@@ -1400,19 +1400,19 @@ section {
 	padding: 24px;
 	cursor: pointer;
 }
-.main-calculator .banner-content > ul > li > div label,
-.main-calculator .banner-content > ul > li > div span {
+.main-calculator .banner-style-04 .banner-content > ul > li > div label,
+.main-calculator .banner-style-04 .banner-content > ul > li > div span {
 	position: relative;
 	z-index: 4;
 	background: none !important;
 	padding: 0;
 	cursor: pointer;
 }
-.main-calculator .banner-content > ul > li.active > div,
-.main-calculator .banner-content > ul > li:hover > div {
+.main-calculator .banner-style-04 .banner-content > ul > li.active > div,
+.main-calculator .banner-style-04 .banner-content > ul > li:hover > div {
 	background: linear-gradient(180deg, #4499C6 0%, #6FE8AB 100%);
 }
-.main-calculator .banner-content > ul > li:hover > div:before {
+.main-calculator .banner-style-04 .banner-content > ul > li:hover > div:before {
 	content: '';
 	display: block;
 	background: #282B34;
@@ -1424,19 +1424,19 @@ section {
 	height: calc(100% - 2px);
 	border-radius: 12px;
 }
-.main-calculator .banner-content > ul > li > div label {
+.main-calculator .banner-style-04 .banner-content > ul > li > div label {
 	margin-bottom: 16px;
 }
-.main-calculator .banner-content > ul > li.active:hover > div label,
-.main-calculator .banner-content > ul > li.active > div label,
-.main-calculator .banner-content > ul > li.active > div span {
+.main-calculator .banner-style-04 .banner-content > ul > li.active:hover > div label,
+.main-calculator .banner-style-04 .banner-content > ul > li.active > div label,
+.main-calculator .banner-style-04 .banner-content > ul > li.active > div span {
 	color: #fff;
 }
-.main-calculator .banner-content > ul > li.active:hover > div small,
-.main-calculator .banner-content > ul > li.active > div small {
+.main-calculator .banner-style-04 .banner-content > ul > li.active:hover > div small,
+.main-calculator .banner-style-04 .banner-content > ul > li.active > div small {
 	-webkit-text-fill-color: #fff;
 }
-.main-calculator .banner-content > ul > li.active:hover > div:before {
+.main-calculator .banner-style-04 .banner-content > ul > li.active:hover > div:before {
 	display: none;
 }
 /* .main-calculator .banner-content > ul > li.active:hover > div label {
