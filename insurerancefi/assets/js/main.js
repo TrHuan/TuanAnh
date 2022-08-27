@@ -247,7 +247,7 @@ jQuery(document).ready(function($) {
 
     // $('.main-calculator .banner-content > ul > li > div').click(function(){
     $(document).on('click', '.main-calculator .banner-style-04 .banner-content > ul > li > div', function () {
-        var hsac = $('this').parent().hasClass('active');
+        var hsac = $(this).parent().hasClass('active');
         if (hsac) {
             $('.main-calculator .banner-style-04 .banner-content > ul > li').removeClass('active');
         } else {
