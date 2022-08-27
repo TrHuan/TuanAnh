@@ -1406,6 +1406,7 @@ section {
 	z-index: 4;
 	background: none !important;
 	padding: 0;
+	cursor: pointer;
 }
 .main-calculator .banner-content > ul > li.active > div,
 .main-calculator .banner-content > ul > li:hover > div {
